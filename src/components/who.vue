@@ -1,25 +1,24 @@
 <template>
   <div class="who">
     <div class="pres">
-      <h1>Who are we ?</h1>
+      <h1>Who Are We ?</h1>
       <div class="presCorp">
         <div class="logo"></div>
         <div class="textWho">
-          Space Dream was created in 2021 by Guillaume RN.
-          and Loïc C. and aims to design projects that will
-          help develop the spatial knowledge of everyone.
+          Space Dream was created in 2021 by Guillaume RN. and Loïc C. and aims
+          to design projects that will help develop the spatial knowledge of
+          everyone.
           <br />
-          <br />Several projects have already been launched
-          including the SpaceBot project.
+          <br />Several projects have already been launched including the
+          SpaceBot project.
         </div>
       </div>
       <div class="textWho2">
-        Space Dream was created in 2021 by Guillaume RN.
-        and Loïc C. and aims to design projects that will
-        help develop the spatial knowledge of everyone.
+        SpaceDream works all over the world so that everyone can develop their
+        space knowledge.
         <br />
-        <br />Several projects have already been launched
-        including the SpaceBot project.
+        <br />SpaceDream works with companies such as : Nasa, Esa, SpaceX or
+        Ciel et espace.
       </div>
     </div>
     <div class="cv">
@@ -28,16 +27,23 @@
         <div class="separator">
           <div class="tete1"></div>
           <p class="teteText">
-            consequatur maxime nostrum quibusdam et id molestiae ipsum provident
-            iure, perspiciatis rerum aperiam nam officia!
+            <span class="nameText">Loïc CHAZEAU</span><br /><br />
+            <span class="roleText"
+              >Co founder<br />
+              Front-end developer<br />
+              Web designer
+            </span>
           </p>
         </div>
         <div class="separator">
           <div class="tete2"></div>
           <p class="teteText">
-            erendis nobis labore illum
-            recusandae nam eligendi modi deserunt veritatis quas ipsa in quod
-            nemo.
+            <span class="nameText">Guillaume RAVAN NALBANDIAN</span><br /><br />
+            <span class="roleText"
+              >Co founder <br />
+              Full stack developer <br />
+              Bot developper</span
+            >
           </p>
         </div>
       </div>
@@ -63,6 +69,7 @@ h1 {
   color: white;
   font-size: 50px;
   margin-bottom: 8%;
+  margin-right: 10%;
 }
 h2 {
   text-align: center;
@@ -70,7 +77,7 @@ h2 {
   font-size: 40px;
 }
 .pres {
-  width: 100%;
+  width: 60%;
 }
 .presCorp {
   display: flex;
@@ -79,7 +86,7 @@ h2 {
 .logo {
   width: 300px;
   height: 300px;
-  background: url("../assets/spacedream.svg");
+  background: url("../assets/svg/spacedream.svg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,6 +112,8 @@ h2 {
 }
 .cv {
   margin-top: 8%;
+  margin-right: 3%;
+  width: 40%;
 }
 .cvCorp {
   display: flex;
@@ -116,12 +125,12 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  width: 50%;
 }
 .tete1 {
   width: 220px;
   height: 220px;
-  background: url("../assets/loic.png");
+  background: url("../assets/png/loic.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,7 +138,7 @@ h2 {
 .tete2 {
   width: 220px;
   height: 220px;
-  background: url("../assets/guillaume.png");
+  background: url("../assets/png/guillaume.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,5 +149,18 @@ h2 {
   font-weight: 400;
   text-align: center;
   margin-top: 8%;
+}
+.nameText {
+  font-size: 22px;
+  font-weight: 700;
+  color: #25166b;
+  width: 100%;
+}
+.roleText {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+  text-align: left;
 }
 </style>

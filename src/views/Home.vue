@@ -31,10 +31,12 @@
     <footer id="footer">
       <Footer />
     </footer>
+    
   </div>
 </template>
 
 <script>
+
 import Header from "@/components/header.vue";
 import Who from "@/components/who.vue";
 import Stats from "@/components/stats.vue";
@@ -71,8 +73,8 @@ header {
   z-index: 1;
 }
 .footer {
-  background: url("../assets/wave.svg"), url("../assets/wave.svg"),
-    url("../assets/wave.svg"), url("../assets/wave.svg");
+  background: url("../assets/svg/wave.svg"), url("../assets/svg/wave.svg"),
+    url("../assets/svg/wave.svg"), url("../assets/svg/wave.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: -10px, 0px, 0, -10px;

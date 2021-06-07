@@ -276,10 +276,6 @@ h2 {
   color: #25166b;
   border-radius: 100px;
 }
-/* .active:hover {
-  transform: translateY(0px) scale(1.03);
-  transition: 0.1s all ease-in-out;
-} */
 .priceCardCase {
   display: flex;
   justify-content: space-between;
@@ -294,10 +290,10 @@ h2 {
   background-color: #edeef6;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   border-radius: 15px;
+  transition: 0.1s all ease-in-out;
 }
 .priceCard:hover {
   transform: translateY(8px) scale(1.05);
-  transition: 0.1s all ease-in-out;
 }
 .priceCardHeader {
   display: flex;

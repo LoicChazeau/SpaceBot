@@ -7,18 +7,7 @@ const routes = [
     name: "Home",
     component: Home,
   },
-  {
-    path: "/header",
-    name: "header",
-    component: () =>
-      import(/* webpackChunkName: "header" */ "../components/header.vue"),
-  },
-  {
-    path: "/footer",
-    name: "footer",
-    component: () =>
-      import(/* webpackChunkName: "header" */ "../components/footer.vue"),
-  },
+  
 ];
 
 const router = createRouter({

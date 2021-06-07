@@ -1,4 +1,3 @@
-q
 <template>
   <div class="contact">
     <div class="information">
@@ -50,7 +49,13 @@ q
         <p class="formText">Your Name</p>
         <input class="name" placeholder="Name" type="text" name id />
         <p class="formText">Mail</p>
-        <input class="mail2" placeholder="Example@gmail.com" type="text" name id />
+        <input
+          class="mail2"
+          placeholder="Example@gmail.com"
+          type="text"
+          name
+          id
+        />
         <p class="formText">Phone</p>
         <input class="phone2" placeholder="000-000-0000" type="text" name id />
         <p class="formText">Message</p>
@@ -87,7 +92,7 @@ export default {
 .contact {
   display: flex;
   justify-content: space-around;
-  padding-top: 7%;
+  padding-top: 8%;
 }
 h1 {
   color: white;
@@ -118,7 +123,6 @@ h2 {
   width: 30px;
   height: 30px;
 }
-
 .infoText {
   color: white;
   font-size: 22px;
@@ -128,12 +132,22 @@ h2 {
 .reseaux {
   display: flex;
   margin: 20% 0 0 10%;
-  width: 70%;
-  justify-content: space-around;
+  width: 90%;
 }
 .logo1 {
   width: 30px;
   height: 30px;
+  margin-left: 50px;
+  border-radius: 100px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+.logo1:hover {
+  background-color: #25166b;
+  border-radius: 100px;
+  padding: 15px;
+  transform: translateY(0px) scale(1.15);
 }
 .form {
   display: flex;
@@ -171,21 +185,21 @@ input {
   font-size: 0.7em;
 }
 .name {
-  background: url(../assets/name.svg);
+  background: url(../assets/svg/name.svg);
   background-position-x: 10px;
   background-position-y: center;
   background-size: 15px;
   background-repeat: no-repeat;
 }
 .mail2 {
-  background: url(../assets/mail.svg);
+  background: url(../assets/svg/mail.svg);
   background-position-x: 10px;
   background-position-y: center;
   background-size: 15px;
   background-repeat: no-repeat;
 }
 .phone2 {
-  background: url(../assets/phone.svg);
+  background: url(../assets/svg/phone.svg);
   background-size: 15px;
   background-position-x: 10px;
   background-position-y: center;
