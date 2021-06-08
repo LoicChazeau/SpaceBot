@@ -29,7 +29,7 @@
     <div class="chatboxCont">
       <div class="chatboxHeader">
         <div class="logoHeader"></div>
-        <p class="textHeader">Answers 24/7 {{ Questions.length }}</p>
+        <p class="textHeader">Answers 24/7</p>
         <div class="quizzBox">
           <p v-if="quizz == false">Want to test your knowledge ?</p>
           <p v-if="quizz == true">Enough challenge ?</p>
