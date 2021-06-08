@@ -1,4 +1,4 @@
-Chatbot landing page using VueJs and an API(wit.ai)
+Chatbot landing page using VueJs and an API (wit.ai)
 ============================
 
 So, here is the beginning of the project: a landing page where you can see a demonstration of our product (the chatbot) and buy it. 
@@ -14,7 +14,7 @@ You'll need some solid base on :
  - HTML5
  - CSS 3
  - Javascript
- - Fetch(for the API)
+ - Fetch (for the API)
  - VueJs (optional)
 
 ---
