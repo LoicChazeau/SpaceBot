@@ -3,6 +3,7 @@ Chatbot landing page using VueJs and an API(wit.ai)
 
 So, here is the beginning of the project: a landing page where you can see a demonstration of our product (the chatbot) and buy it. 
 
+Visit the project : https://space-bot-guillaume-loic.herokuapp.com/
 ----------
 
 
